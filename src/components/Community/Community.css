@@ -1,0 +1,129 @@
+.card{
+    width: 18rem;
+}
+.community-info h1{
+    margin-top: 35px;
+    text-align: center;
+    font-family:Bw Quinta Pro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 43px;
+    color: #6AB950;
+  }
+  .community-info p{  
+    font-family: Bw Quinta Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 31px;
+    text-align: center;
+    color:  rgba(10, 0, 41, 0.7);    
+}
+.underline {
+    width: 10rem;
+    height: 0.25rem ;
+    margin-bottom: 15px;
+    background-color: #ED6638;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .community-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1.875rem;
+  }
+  .card-section{
+    color: white;
+    width:100vw; 
+    margin: 20px;
+  }
+
+@media screen and (max-width: 960px){
+  .community-section{
+    flex: 1;
+    flex-direction: column;
+  }
+  .card-section{
+    width: 50vw;
+  }
+  .card1{
+    height: 30vh;
+  }
+  .card2{
+    height: 30vh;
+  }
+  .community-info p {
+font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .card-section{
+    width: 80vw;
+  }
+  .card1{
+height: 50vh;
+  }
+  .card2{
+    height: 50vh;
+  }
+  
+}
+.card-head{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card1{
+   height:80vh;
+  background-color:#ED6638;
+  padding: 0.9375rem;
+  border-radius:20px;  
+}
+.card2{
+  height: 80vh;
+  background-color:#6AB950;
+  padding: 0.9375rem;
+  border-radius: 20px;
+}
+.card-title{
+  font-family: Bw Quinta Pro;
+font-size: 25px;
+font-weight: 900;
+line-height: 35px;
+letter-spacing: 0em;
+}
+.icon-bg{ 
+background-color: rgba(255, 255, 255, 0.2);
+border-radius: 50px;
+width: 100px;
+height: 50px;
+opacity: 2;
+text-align: center;
+align-items: center;
+}
+.icon{
+margin-top: 15px;
+font-size: 20px;
+}
+.card-list{
+  list-style-type: decimal;
+  margin: 10px;
+}
+.card-list li{
+ font-size: 18px;
+ letter-spacing: 0.05em;
+}
+.card-link{
+  letter-spacing: 0.05em;
+  font-size: 20px;
+
+}
+.card-link:hover{
+  color: rgb(151, 159, 159);
+}
+.card-icon{
+  margin: 15px;
+}

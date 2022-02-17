@@ -1,0 +1,172 @@
+.services-submenu {
+    width: 15rem;
+    position: absolute;
+    top: 67px;
+    list-style: none;  
+    background: rgb(195, 197, 197);
+    text-align: start;
+  }
+  
+  .services-submenu li {
+  
+    cursor: pointer;
+    color: #222;
+    border-radius: 10px;
+  }
+  
+
+  .services-submenu li a:hover {
+    color: rgb(239, 245, 245);
+  }
+  
+  .services-submenu.clicked {
+    display: none;
+  }
+  
+  .submenu-item {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #222;
+    padding: 16px;
+  }
+
+
+  /* main nav */
+  .app_navbar{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    font-family: Bw Quinta Pro;
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.05);
+    color: #222;
+}
+
+.app_navbar-logo{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+.app_navbar-logo img {
+    width: 150px;
+}
+.app_navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.app_navbar-links li a {
+margin: 0 1rem;
+cursor: pointer;
+text-decoration: none;
+color: #000;
+}
+.app_navbar-links a:hover {
+color: rgb(65, 61, 61);
+}
+.app_navbar-login{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.app_navbar-login div{
+    margin: 0 1rem;
+    color:  #6AB950;;
+}
+.app_navbar-login button:hover{
+  background-color: #222;
+  color: #fff;
+}
+
+.app_navbar-smallscreen {
+    display: none;
+}
+.app_navbar-smallscreen-overlay{
+ position: fixed;
+ top:0;
+ left:0;
+ width: 100%;
+ height: 100vh;
+ background-color: #fff;
+ transition: 0.5s ease;
+ flex-direction: column;
+ z-index: 5;   
+}
+.app_navbar-smallscreen-overlay .overlay_close{
+    font-size: 27px;
+    color: #222;
+    cursor: pointer;
+    position: absolute;
+    top:30px;
+    right:20px;  
+}
+.app_navbar-toggle{
+    margin-right: 15px;
+}
+.app_navbar-smallscreen-links {
+    list-style: none;
+}
+.app_navbar-smallscreen-links li {
+     margin: 2rem;
+}
+.app_navbar-smallscreen-links a {
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    font-family: Bw Quinta Pro;
+    text-decoration: none;
+    color: #000; 
+}
+.app_navbar-smallscreen-links a:hover{
+    color: rgb(65, 61, 61);
+}
+.dropdown-button{
+  font-size: 1rem;
+
+}
+@media screen and (max-width: 1100px) {
+     .app_navbar-links{
+        display: none;
+    }
+    .app_navbar-smallscreen{
+        display: flex;
+    }  
+    .app_navbar-login{
+        display: none;
+    }
+}
+@media screen and (max-width: 650px){
+    .app_navbar {
+        padding: 1rem;
+    }
+    .app_navbar-login{
+        display: none;
+    }
+    .app_navbar-logo img {
+        width: 110px;
+    }
+    .services-submenu-smallscreen{
+       align-items: center;
+       height: 50px;
+       width: 50px;
+       top: 150px;
+       margin: 0px;
+    }
+    .submenu-item {
+        margin: 0;
+        margin-left: 5rem;
+    }
+    .submenu-item a{
+         font-size: 5px;
+    }
+    .app_navbar-login-overlay div{
+        color:  #6AB950;
+    }
+
+}
