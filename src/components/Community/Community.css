@@ -47,13 +47,13 @@
     flex-direction: column;
   }
   .card-section{
-    width: 50vw;
+    width: 60vw;
   }
   .card1{
-    height: 30vh;
+    height: 40vh;
   }
   .card2{
-    height: 30vh;
+    height: 45vh;
   }
   .community-info p {
 font-size: 15px;
@@ -62,10 +62,10 @@ font-size: 15px;
 
 @media screen and (max-width: 500px){
   .card-section{
-    width: 80vw;
+    width: 90vw;
   }
   .card1{
-height: 30vh;
+height: 40vh;
   }
   .card2{
     height: 40vh;
@@ -78,13 +78,13 @@ height: 30vh;
 }
 
 .card1{
-   height:80vh;
+   height:30vh;
   background-color:#ED6638;
   padding: 0.9375rem;
   border-radius:20px;  
 }
 .card2{
-  height: 80vh;
+  height: 30vh;
   background-color:#6AB950;
   padding: 0.9375rem;
   border-radius: 20px;
