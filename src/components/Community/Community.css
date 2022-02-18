@@ -30,7 +30,8 @@
   }
   .community-section{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
     margin-top: 1.875rem;
   }
@@ -61,13 +62,13 @@ font-size: 15px;
 
 @media screen and (max-width: 500px){
   .card-section{
-    width: 50vw;
+    width: 80vw;
   }
   .card1{
-height: 20vh;
+height: 30vh;
   }
   .card2{
-    height: 20vh;
+    height: 40vh;
   }
   
 }
