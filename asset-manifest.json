@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/rent4less-app/static/css/main.c199455a.css",
+    "main.css": "/rent4less-app/static/css/main.27297b64.css",
     "main.js": "/rent4less-app/static/js/main.515090d4.js",
     "static/media/Rectangle 164.png": "/rent4less-app/static/media/Rectangle 164.20ced0f7070385a03dad.png",
     "static/media/Rectangle 81.png": "/rent4less-app/static/media/Rectangle 81.2d99c3aef59b5563691e.png",
     "index.html": "/rent4less-app/index.html",
-    "main.c199455a.css.map": "/rent4less-app/static/css/main.c199455a.css.map",
+    "main.27297b64.css.map": "/rent4less-app/static/css/main.27297b64.css.map",
     "main.515090d4.js.map": "/rent4less-app/static/js/main.515090d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c199455a.css",
+    "static/css/main.27297b64.css",
     "static/js/main.515090d4.js"
   ]
 }
