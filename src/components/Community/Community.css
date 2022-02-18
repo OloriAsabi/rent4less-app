@@ -61,13 +61,13 @@ font-size: 12px;
 
 @media screen and (max-width: 500px){
   .card-section{
-    width: 80vw;
+    width: 90vw;
   }
   .card1{
-height: 50vh;
+height: 30vh;
   }
   .card2{
-    height: 50vh;
+    height: 30vh;
   }
   
 }
