@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/rent4less-app/static/css/main.9fe0ef9e.css",
-    "main.js": "/rent4less-app/static/js/main.515090d4.js",
-    "static/media/Rectangle 164.png": "/rent4less-app/static/media/Rectangle 164.20ced0f7070385a03dad.png",
-    "static/media/Rectangle 81.png": "/rent4less-app/static/media/Rectangle 81.2d99c3aef59b5563691e.png",
+    "main.css": "/rent4less-app/static/css/main.1a7f3ca1.chunk.css",
+    "main.js": "/rent4less-app/static/js/main.4b5b1080.chunk.js",
+    "main.js.map": "/rent4less-app/static/js/main.4b5b1080.chunk.js.map",
+    "runtime-main.js": "/rent4less-app/static/js/runtime-main.8e58a7fd.js",
+    "runtime-main.js.map": "/rent4less-app/static/js/runtime-main.8e58a7fd.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/rent4less-app/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.29504358.chunk.js": "/rent4less-app/static/js/2.29504358.chunk.js",
+    "static/js/2.29504358.chunk.js.map": "/rent4less-app/static/js/2.29504358.chunk.js.map",
     "index.html": "/rent4less-app/index.html",
-    "main.9fe0ef9e.css.map": "/rent4less-app/static/css/main.9fe0ef9e.css.map",
-    "main.515090d4.js.map": "/rent4less-app/static/js/main.515090d4.js.map"
+    "static/css/2.0a9ec390.chunk.css.map": "/rent4less-app/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.1a7f3ca1.chunk.css.map": "/rent4less-app/static/css/main.1a7f3ca1.chunk.css.map",
+    "static/js/2.29504358.chunk.js.LICENSE.txt": "/rent4less-app/static/js/2.29504358.chunk.js.LICENSE.txt",
+    "static/media/Ab7g4N1VBr (1) 1.926320e9.png": "/rent4less-app/static/media/Ab7g4N1VBr (1) 1.926320e9.png",
+    "static/media/Rectangle 164.20ced0f7.png": "/rent4less-app/static/media/Rectangle 164.20ced0f7.png",
+    "static/media/Overlay.css": "/rent4less-app/static/media/Rectangle 81.2d99c3ae.png"
   },
   "entrypoints": [
-    "static/css/main.9fe0ef9e.css",
-    "static/js/main.515090d4.js"
+    "static/js/runtime-main.8e58a7fd.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.29504358.chunk.js",
+    "static/css/main.1a7f3ca1.chunk.css",
+    "static/js/main.4b5b1080.chunk.js"
   ]
 }
