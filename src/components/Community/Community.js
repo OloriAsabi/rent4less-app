@@ -27,7 +27,7 @@ const Community = () => {
                        <li>No Commission</li>
                         <li>Pay & Pack in.</li>
                     </ul>
-                     <a href="#" className="card-link"><FaArrowAltCircleRight className='card-icon'/>Generate</a>
+                     <a href="/" className="card-link"><FaArrowAltCircleRight className='card-icon'/>Generate</a>
                 </div> 
                 </div>
                 </div>
@@ -46,7 +46,7 @@ const Community = () => {
                         <li>Start immediately</li>
                     </ul>
                 
-                    <a href="#" className="card-link"><FaArrowAltCircleRight className='card-icon'/>Generate</a>
+                    <a href="/" className="card-link"><FaArrowAltCircleRight className='card-icon'/>Generate</a>
              </div> 
                </div>
                </div>

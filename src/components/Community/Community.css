@@ -9,7 +9,7 @@
     font-weight: 900;
     font-size: 30px;
     line-height: 43px;
-    color: #6AB950;
+    color: var(--color-green);
   }
   .community-info p{  
     font-family: Bw Quinta Pro;
@@ -24,7 +24,7 @@
     width: 10rem;
     height: 0.25rem ;
     margin-bottom: 15px;
-    background-color: #ED6638;
+    background-color: var(--color-orange);
     margin-left: auto;
     margin-right: auto;
   }
@@ -47,13 +47,13 @@
     flex-direction: column;
   }
   .card-section{
-    width: 60vw;
+    width: 70vw;
   }
   .card1{
-    height: 40vh;
+    height: 50vh;
   }
   .card2{
-    height: 45vh;
+    height: 50vh;
   }
   .community-info p {
 font-size: 15px;
@@ -78,14 +78,14 @@ height: 40vh;
 }
 
 .card1{
-   height:30vh;
-  background-color:#ED6638;
+   height:40vh;
+  background-color: var(--color-orange);
   padding: 0.9375rem;
   border-radius:20px;  
 }
 .card2{
-  height: 30vh;
-  background-color:#6AB950;
+  height: 40vh;
+  background-color: var(--color-green);
   padding: 0.9375rem;
   border-radius: 20px;
 }

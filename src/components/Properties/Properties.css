@@ -1,0 +1,97 @@
+.property{
+    flex-direction: row;
+}
+.loading{
+    height: '600px';
+     color: "#6AB950";
+}
+.load{
+    color: var(--color-green);
+}
+.property-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon{
+    font-size: 30px;
+    margin: 5px;
+}
+ .icon:active{
+   color: var(--color-green);  
+ }
+
+.property-header h2{
+        font-family: Bw Quinta Pro;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 35px;
+        line-height: 55px;
+        color: #0A0029;
+ }
+
+ .property-card{
+    max-width:50%; 
+    margin-top: 10px;  
+    margin-bottom: 5rem;
+ }
+ .property-img{
+    width: max-content;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+ }
+
+.property-card_sec{
+    min-width: 351px;
+    height: 347px;
+    font-family: Bw Quinta Pro;
+}
+.property-img img {
+    object-fit: cover;
+    opacity: 1;
+    transition: .5s ease;
+}
+@media screen and (min-width: 500px) {
+    .property-card{
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .property-card_sec {
+        min-width: 600px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .property-card_sec {
+        min-width: 180px;
+        height: 320px;
+    }
+}
+.property_purpose{
+    background-color: var(--color-green);
+    color: #fff;
+    width: 50px;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.property-address{
+    color: #848484;
+    font-weight: 500;
+font-size: 14px;
+}
+.property-icon {
+    color: var(--color-green);
+    font-size: 20px;
+    margin: 10px;
+}
+.property-box legend{
+    font-size: 20px;
+}
+.property-price{
+    font-size: 25px !important;
+}

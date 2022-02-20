@@ -13,7 +13,6 @@ export const LoginUser  = async (email, password,login_code) => {
                            Accept: "application/json, text/plain, */*",
                            "Content-Type": "application/json ",
                            'X-CSRFTOKEN': 'NSVYXHlsUOppE8lJnLboRqYqKFaFuqsvoLvLhK695tfqWs4OWvJtDFrwyk9elkcl',
-                        //    "Allow-Control-Allow-Origin": "*"
                        },
                    })
                    console.log(response)
@@ -24,22 +23,6 @@ export const LoginUser  = async (email, password,login_code) => {
                 return err.response;
             } 
         }
-        // console.log("After login ===>> ", response);
-		{/*if (response.data?.statusCode >= 400) {
-			const error = response.data.description || response.data.message;
-			swal({
-				title: "Login Failed",
-				icon: "error",
-				text: `Reason:  ${error}`,
-			});
-			return;
-		}
-		if (response.user?.token) {
-			localStorage.setItem("token", response.user.token);
-			localStorage.setItem("user", JSON.stringify(response.user));
-			window.location.href = "/";
-		}*/}
-
 }
 
 
@@ -49,13 +32,12 @@ export const RegisterUser = async(firstName, lastName, email, username, password
     console.log("Base:", BASEURL, firstName, lastName, email, username, password, phoneNumber, countryId);
     const data = {firstName, lastName, email, username, password, phoneNumber, countryId}
     try {
-        const response= await axios.post(`${BASEURL}`, data, {
+        const response= await axios.post(`${baseURL}`, data, {
 
             headers: {
                 Accept: "application/json, text/plain, */*",
                 "Content-Type": "application/json ",
                 'X-CSRFTOKEN': 'NSVYXHlsUOppE8lJnLboRqYqKFaFuqsvoLvLhK695tfqWs4OWvJtDFrwyk9elkcl',
-             //    "Allow-Control-Allow-Origin": "*"
             },
         })
         console.log(response)
@@ -68,4 +50,24 @@ export const RegisterUser = async(firstName, lastName, email, username, password
         }    
     }
 
+}
+
+const baseUrl = "https://rent-4-less-iyqm7.ondigitalocean.app/";
+
+export async function getProperties() {
+    console.log("Base:", baseUrl);
+    try {
+        const data = await axios.get(`${baseUrl}`, {
+            headers: {
+                Accept: "application/json, text/plain",
+                "Content-Type": "application/json ",
+            },
+        });
+        console.log("api ", data.data);
+        return data.data;
+
+    } catch (err) {
+        console.log("Error:", err.response);
+        return err.response;
+    }
 }

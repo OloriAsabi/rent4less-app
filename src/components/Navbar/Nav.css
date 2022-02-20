@@ -48,7 +48,7 @@
     justify-content: flex-end;
     align-items: center;
     margin-left: 60px;
-    color: #6AB950;
+    color: var(--color-green);
   }
   .app_navbar-login{
     display: flex;
@@ -58,19 +58,19 @@
   .app_navbar-login div{
     width: 1px;
     height: 30px;
-    background-color: #6AB950;
+    background-color: var(--color-green);
 }
 .app_navbar-login a{
     margin: 0 1rem;
     text-decoration: none;
     transition: 0.5s ease;
-    color: #6AB950;
+    color: var(--color-green);
 }
 .app_navbar-login a:hover{
-    border-bottom: 1px solid #6AB950;
+    border-bottom: 1px solid var(--color-green);
 }
   .nav-links-mobile:hover{
-    border-bottom: #6AB950;
+    border-bottom: var(--color-green);
   }
   .menu-icon {
     display: none;
@@ -137,7 +137,7 @@
     }
   
     .nav-links-mobile:hover{
-        background-color: #6AB950;;
+        background-color: var(--color-green);
         color: #fff;
       transition: 250ms;
     }
@@ -261,7 +261,7 @@
 	}
 
 	.submit {
-		background-color: #6AB950;
+		background-color: var(--color-green);
 		color: #fff;
 		font-weight: 400;
 		font-size: 15px;
