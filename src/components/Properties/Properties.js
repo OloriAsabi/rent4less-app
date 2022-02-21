@@ -57,36 +57,33 @@ console.log("-->",propertyData)
             ) : (
            <>
          { propertyData?.featured_properties?.map((data, i) => (
-          <Card key={i} ref={scrollRef} className={classes.propertyCard}>
-          <div>
-    
-            {
-           propertydata?.map(data => (
-              <CardMedia
-              id={data.id}
-              style={{ height: 350 }}
-             image={data.img}
-               alt="images"
-               className='property-img'
-              />
+          <Card key={i} ref={scrollRef} className="property-card">
+            {data?.images?.map(img => (
+              img.primary ? ( 
+                <CardMedia
+                id={data.id}
+                style={{ height: 350 }}
+               image={img.file}
+                 alt="images"
+                 className='property-img'
+                />) : (<img src="" alt=""/>)
             ))
             }
-            <CardContent>
+            <CardContent className='property-card_sec'>
               <p>{data.created_on ? data.created_on : "1 Jan 2021"}</p>
-              <p>{data.purpose ? data.purpose : "FOR SALE"}</p>
+              <p className='property_purpose'>{data.purpose ? data.purpose : "FOR SALE"}</p>
               <Typography gutterBottom variant="h5">{data.title ? data.title : "5 Bedroom Apartment"}</Typography>
               <Typography gutterBottom variant="h6">{data.address ? data.address : "Lagos"}</Typography>
-              <Box display="flex" justifyContent="space-between" my={2}>
-                <Typography component="legend"><MdOutlineBedroomParent/>{data.details.bedroom ? data.details.badroom :"1"}</Typography>
-                <Typography component="legend"><MdOutlineBathroom/>{data.details.bathroom ? data.details.bathroom : "1"}</Typography>
-                <Typography component="legend"><FaToilet/>{data.details.toilet ? data.details.toilet : "1"}</Typography>
+              <Box display="flex" justifyContent="space-between" my={2} className='property-box'>
+                <Typography component="legend"><MdOutlineBedroomParent  className='property-icon'/>{data.details.bedroom ? data.details.badroom :"1"}</Typography>
+                <Typography component="legend"><MdOutlineBathroom  className='property-icon'/>{data.details.bathroom ? data.details.bathroom : "1"}</Typography>
+                <Typography component="legend"><FaToilet  className='property-icon'/>{data.details.toilet ? data.details.toilet : "1"}</Typography>
                 </Box>
                 <Box display="flex" justifyContent="space-between">
-                    <Typography variant="subtitle1">Price</Typography>
-                    <Typography gutterBottom variant="subtitle1">#{data.amount ? data.amount : "50000"}</Typography>
+                    <Typography className='property-price' variant="subtitle1">Price</Typography>
+                    <Typography className='property-price' gutterBottom variant="subtitle1">#{data.amount ? data.amount : "50000"}</Typography>
                </Box>
             </CardContent>
-          </div>
         </Card>
          ))}
            </>

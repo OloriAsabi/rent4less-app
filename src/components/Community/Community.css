@@ -65,10 +65,10 @@ font-size: 15px;
     width: 90vw;
   }
   .card1{
-height: 40vh;
+height: 50vh;
   }
   .card2{
-    height: 40vh;
+    height: 50vh;
   }
   
 }
@@ -78,13 +78,13 @@ height: 40vh;
 }
 
 .card1{
-   height:40vh;
+   height:70vh;
   background-color: var(--color-orange);
   padding: 0.9375rem;
   border-radius:20px;  
 }
 .card2{
-  height: 40vh;
+  height: 70vh;
   background-color: var(--color-green);
   padding: 0.9375rem;
   border-radius: 20px;
